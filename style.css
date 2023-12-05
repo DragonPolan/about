@@ -12,6 +12,10 @@ p {
   height: 500px;
 }
 
+h1 {
+  height: 200px 
+}
+
 .title {
   margin-right: auto;
 }
