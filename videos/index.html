@@ -8,13 +8,38 @@
 </head>
   <body background="../bg.jpg">
     <style>
-      
+      .flex{
+        display:flex;
+      }
+
+      .flex .summary{
+        width:600;
+        margin:0;
+        padding:20px;
+        background:FFFFFF;
+      }
+
+      .flex .summary .title{
+        margin:0;
+        padding:10px;
+      }
     </style>
 
     <script>include_header();</script>
     
     <br>
-    <h2>一番人気の動画！</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/jVaqDDIrp5w?si=Mw3r5seJxFY96xFI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    
+    <h1>一番人気の動画！</h1>
+    <div class="flex">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/jVaqDDIrp5w?si=Mw3r5seJxFY96xFI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <div class="summary">
+        <h1 class="title">こんなパラオは嫌だ</h1>
+        <p>
+          もしもパラオが〇〇だったら...嫌だ！
+          <br>
+          そんなパラオのifを視聴者様から募集し、動画にしました！
+          <br>
+          一番人気の動画なので、ぜひ見てみてください！
+        </p>
+      </div>
+    </div>
   </body>
